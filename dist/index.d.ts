@@ -227,6 +227,12 @@ declare namespace PhotoSwipe {
         mouseUsed?: boolean;
 
         /**
+         * A boolean that indicates whether the download button should be hidden. Download button is shown by default.
+         */
+        hideDownloadButton?: boolean;
+        /**
+
+        /**
          * esc keyboard key to close PhotoSwipe. Option can be changed dynamically (yourPhotoSwipeInstance.options.escKey = false;).
          *
          * Default true.
