@@ -3380,7 +3380,9 @@ _registerModule('DesktopZoom', {
 			}
 
 			// allow just one event to fire
-			e.stopPropagation();
+			// Removing it from here. This will be captured form the mouse wheel handler in Lightbox  
+			// https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/2092187
+			// e.stopPropagation();
 
 			// https://developer.mozilla.org/en-US/docs/Web/Events/wheel
 			_wheelDelta.x = 0;
